@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.min.js" integrity="sha512-lvddmeF7aHRJwdbJeYThWd5kWSjTrXBzCRF/jYROiHzmhMJ1dEXfGH5Q7ft0yhizXTopAETG03s5ajTflauijA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+    <title>Triangle Puzzle</title>
+  </head>
+  <body>
+    <h1>Triangle Puzzle</h1>
+
+    <div id="canvas"></div>
+
+    <div id="controls">
+
+      <div id="flow">
+        <span id="reset"></span>
+        <span id="play"></span>
+        <span id="step"></span>
+      </div>
+      
+      <div id="framerate">
+        <span>Limit framerate:</span>
+        <span id="limitframerate"></span>
+        <span id="setframerate"></span>
+        <span id="valueframerate">8</span>
+      </div>
+
+      <div id="gameboard">
+        <span>Select gameboard:</span>
+        <select id="selectboard">
+          <option value="easy">Easy</option>
+          <option value="hard">Hard</option>
+        </select>
+      </div>
+
+      <div id="shuffled">
+        <span>Start with shuffled pieces:</span>
+        <span id="setshuffled"></span>
+      </div>
+
+      <div id="onlyvalid">
+        <span>Only show valid positions:</span>
+        <span id="setonlyvalid"></span>
+      </div>
+
+      <div id="onlysolutions">
+        <span>Only show solutions:</span>
+        <span id="setonlysolutions"></span>
+      </div>
+
+      <div id="pauseonsolution">
+        <span>Pause on solution:</span>
+        <span id="setpauseonsolution"></span>
+      </div>
+    
+      <div id="lines">
+        <span>Draw coordinate system grid:</span>
+        <span id="setlines"></span>
+      </div>
+
+    </div>
+
+  </body>
+</html>

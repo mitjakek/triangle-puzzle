@@ -1,0 +1,12 @@
+body {
+  background: grey;
+}
+
+#controls > div {
+  display: flex;
+}
+
+#controls > div > span {
+  padding-right: 0.25em;
+}
+
